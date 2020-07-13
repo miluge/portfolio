@@ -1,2 +1,2 @@
-# portfolio
-Personnal Portfolio of Guillaume Blondel located at : blondelguillau.me
+# Portfolio
+Personal Portfolio of Guillaume Blondel located at : blondelguillau.me
