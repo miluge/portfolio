@@ -214,7 +214,13 @@ a:hover {
   color: #c8d5ef;
 }
 
-/* /icon */
+/* /icon ul display */
+
+.social-icons {
+  display: flex;
+  padding-left: 0px;
+  padding-top: 45rem;
+}
 
 /* slick slider */
 .slick-dots{

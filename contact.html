@@ -44,9 +44,9 @@
         <li class="nav-item">
           <a class="nav-link" href="about.html">about</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="blog.html">Blog</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
@@ -88,16 +88,19 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">Contact Form</h4>
-          <form action="POST" class="row" data-netlify="true">
+          <form action="POST" data-netlify="true" name="contact-form" class="row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
             </div>
             <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
             </div>
             <div class="col-12">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
                 placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-12">
+              <div data-netlify-recaptcha="true"></div>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
               <button type="submit" class="btn btn-primary w-100">send</button>
