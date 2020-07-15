@@ -96,10 +96,10 @@
   </div>
   <!-- social icon -->
   <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    <li class="mb-3"><a class="text-white" href="https://linkedin.com/in/guillaumeblondel"><i class="ti-linkedin s-icons"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="https://github.com/miluge"><i class="ti-github s-icons"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="https://twitter.com/milugeroro"><i class="ti-twitter s-icons"></i></a></li>
-    <li class="mb-3"><a class="text-white" href="https://stackoverflow.com/users/3266761/miluge"><i class="ti-stack-overflow s-icons"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://linkedin.com/in/guillaumeblondel"><i class="ti-linkedin"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://github.com/miluge"><i class="ti-github"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://twitter.com/milugeroro"><i class="ti-twitter"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="https://stackoverflow.com/users/3266761/miluge"><i class="ti-stack-overflow"></i></a></li>
   </ul>
   <!-- /social icon -->
 </section>
@@ -189,8 +189,8 @@
       <div class="col-lg-3 col-md-4 text-center">
         <img src="images/experience/icon-2.png" alt="icon">
         <p class="mb-0">Mar 2009 - Aug 2014</p>
-        <h4>UX & UI Designer</h4>
-        <h6 class="text-light">AUGMEDIX</h6>
+        <h4>SEO Analyst</h4>
+        <h6 class="text-light">TOROP</h6>
       </div>
       <div class="col-lg-3 col-md-4 text-center">
         <img src="images/experience/icon-3.png" alt="icon">
@@ -219,6 +219,7 @@
             <p class="text-dark mb-1">March 2020 - September 2020</p>
             <h4>Web Developper</h4>
             <p class="mb-0 text-light">Access Code School, France</p>
+            <p class="mb-0 text">Access Code School, France</p>
           </div>
         </div>
       </div>
@@ -318,7 +319,7 @@
     <div class="row shuffle-wrapper">
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/ddjewelry.ro_anamaria_ring.jpg" alt="DDJewelry.ro" class="img-fluid rounded w-100">
+          <img src="images/portfolio/41-mare-e1389869359109.jpg" alt="DDJewelry.ro" class="img-fluid rounded w-100">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm" href="https://ddjewelry.ro/">view project</a>
@@ -522,16 +523,19 @@
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
           <h4 class="mb-80">Contact Form</h4>
-          <form action="POST" class="row" data-netlify="true">
+          <form action="POST" data-netlify="true" name="contact-form" class="row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
             </div>
             <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
             </div>
             <div class="col-12">
               <textarea name="message" id="message" class="form-control px-0 mb-4"
                 placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-12">
+              <div data-netlify-recaptcha="true"></div>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
               <button type="submit" class="btn btn-primary w-100">send</button>
@@ -559,14 +563,14 @@
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Social</h5>
-          <p class="text-white paragraph-lg font-secondary">
-            <ul class="list-unstyled ml-5 mt-3 row-icons">
-              <li class="mb-3"><a class="text-white" href="https://linkedin.com/in/guillaumeblondel"><i class="ti-linkedin s-icons"></i></a></li>
-              <li class="mb-3"><a class="text-white" href="https://github.com/miluge"><i class="ti-github s-icons"></i></a></li>
-              <li class="mb-3"><a class="text-white" href="https://twitter.com/milugeroro"><i class="ti-twitter s-icons"></i></a></li>
-              <li class="mb-3"><a class="text-white" href="https://stackoverflow.com/users/3266761/miluge"><i class="ti-stack-overflow s-icons"></i></a></li>
+          <div>
+            <ul class="social-icons">
+              <li ><a class="text-white" href="https://linkedin.com/in/guillaumeblondel"><i class="ti-linkedin s-icons"></i></a></li>
+              <li ><a class="text-white" href="https://github.com/miluge"><i class="ti-github s-icons"></i></a></li>
+              <li ><a class="text-white" href="https://twitter.com/milugeroro"><i class="ti-twitter s-icons"></i></a></li>
+              <li ><a class="text-white" href="https://stackoverflow.com/users/3266761/miluge"><i class="ti-stack-overflow s-icons"></i></a></li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>
