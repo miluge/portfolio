@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
   <!-- Main Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="scss/style.css" rel="stylesheet">
+  <link href="scss/custom.css" rel="stylesheet">
   
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -44,14 +45,14 @@
         <li class="nav-item">
           <a class="nav-link" href="about.html">about</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
         </li>
       </ul>
     </div>
@@ -217,7 +218,7 @@
               <textarea name="message" id="message" class="form-control px-0 mb-4"
                 placeholder="Type Message Here"></textarea>
             </div>
-            <div class="col-12">
+            <div class="col-12 d-flex justify-content-center spacebot-fifteen">
               <div data-netlify-recaptcha="true"></div>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
@@ -238,33 +239,34 @@
       <div class="row">
         <div class="col-md-4">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
+          <p class="text-white paragraph-lg font-secondary">gllmblndl@gmail.com</p>
         </div>
         <div class="col-md-4">
           <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">+33 769 717 520</p>
+          <p class="text-white paragraph-lg font-secondary">(FR)+33 769 717 520</p>
         </div>
         <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">
-            <ul class="d-flex">
-              <li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook"></i></a></li>
-              <li class="mb-3"><a class="text-white" href="#"><i class="ti-instagram"></i></a></li>
-              <li class="mb-3"><a class="text-white" href="#"><i class="ti-dribbble"></i></a></li>
-              <li class="mb-3"><a class="text-white" href="#"><i class="ti-twitter"></i></a></li>
+          <h5 class="text-light">Social</h5>
+          <div>
+            <ul class="d-flex s-icons">
+              <li class="social-icons" ><a class="text-white" href="https://linkedin.com/in/guillaumeblondel"><i class="ti-linkedin s-icons"></i></a></li>
+              <li class="social-icons" ><a class="text-white" href="https://github.com/miluge"><i class="ti-github s-icons"></i></a></li>
+              <li class="social-icons" ><a class="text-white" href="https://twitter.com/milugeroro"><i class="ti-twitter s-icons"></i></a></li>
+              <li class="social-icons" ><a class="text-white" href="https://stackoverflow.com/users/3266761/miluge"><i class="ti-stack-overflow s-icons"></i></a></li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">Copyright ©<script>
+    <p class="mb-0 text-light">powered by<script>
         var CurrentYear = new Date().getFullYear()
         document.write(CurrentYear)
-      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+      </script> <a href="https://linkedin.com/in/guillaumeblondel/">Guillaume Blondel</a></p>
   </div>
 </footer>
+<!-- Copyright © themefisher.com -->
 <!-- /footer -->
 
 <!-- jQuery -->
