@@ -217,9 +217,8 @@ a:hover {
 /* /icon ul display */
 
 .social-icons {
-  display: flex;
-  padding-left: 0px;
-  padding-top: 45rem;
+  padding-left: 0rem;
+  margin-right: 1rem;
 }
 
 /* slick slider */
@@ -266,6 +265,10 @@ textarea.form-control{
   height: 120px;
 }
 /* /form */
+
+.spacebot-fifteen {
+  margin-bottom: 1rem;
+}
 
 /* card */
 .card{
