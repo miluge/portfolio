@@ -106,7 +106,7 @@ h6, .h6 {
 
 .btn-sm {
   font-size: 15px;
-  padding: 10px 30px;
+  padding: 10px 15px;
 }
 
 .btn-xs {
@@ -115,32 +115,32 @@ h6, .h6 {
 }
 
 .btn-primary {
-  background: #421b92;
+  background: #391463;
   color: #fff;
 }
 
 .btn-primary:active {
-  background: #5523bd !important;
+  background: #511d8d !important;
 }
 
 .btn-primary:hover {
-  background: #5523bd;
+  background: #511d8d;
 }
 
 .btn-primary.focus, .btn-primary.active {
-  background: #5523bd !important;
+  background: #511d8d !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
 
 .btn-transparent {
   background: transparent;
-  color: #421b92;
+  color: #391463;
   font-weight: bold;
 }
 
 .btn-transparent:active, .btn-transparent:hover {
-  color: #421b92;
+  color: #391463;
 }
 
 body {
@@ -149,12 +149,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #5523bd;
+  background: #511d8d;
   color: #fff;
 }
 
 ::selection {
-  background: #5523bd;
+  background: #511d8d;
   color: #fff;
 }
 
@@ -210,11 +210,11 @@ select:focus {
 }
 
 a.text-dark:hover {
-  color: #421b92 !important;
+  color: #391463 !important;
 }
 
 a:hover {
-  color: #421b92;
+  color: #391463;
 }
 
 .slick-slide {
@@ -262,7 +262,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #421b92 !important;
+  background: #391463 !important;
 }
 
 .bg-gray {
@@ -270,7 +270,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #421b92 !important;
+  color: #391463 !important;
 }
 
 .text-color {
@@ -414,7 +414,7 @@ a:hover {
 }
 
 .form-control:focus {
-  border-color: #421b92;
+  border-color: #391463;
   outline: 0;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -455,7 +455,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: #421b92;
+  background-color: #391463;
   padding: 15px 100px;
 }
 
@@ -468,7 +468,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #421b92;
+    background: #391463;
   }
 }
 
@@ -636,7 +636,7 @@ textarea.form-control {
 }
 
 .hover-bg-primary:hover {
-  background: #421b92;
+  background: #391463;
 }
 
 .hover-bg-primary:hover * {
@@ -646,7 +646,7 @@ textarea.form-control {
 .active-bg-primary {
   -webkit-transition: .3s ease;
   transition: .3s ease;
-  background: #421b92;
+  background: #391463;
 }
 
 .active-bg-primary * {
@@ -713,7 +713,7 @@ textarea.form-control {
 /* /portfolio */
 /* testimonial */
 .testimonial-content strong {
-  color: #2bfdff;
+  color: #F4EEFC;
   font-weight: normal;
 }
 
@@ -814,7 +814,7 @@ blockquote {
   display: inline-block;
   padding: 10px 20px;
   background: #eaeaea;
-  border-left: 2px solid #421b92;
+  border-left: 2px solid #391463;
   font-style: italic;
   font-size: 22px;
 }
