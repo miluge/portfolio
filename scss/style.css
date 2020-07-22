@@ -472,6 +472,10 @@ textarea.form-control {
   }
 }
 
+.navbar {
+  overflow: hidden;
+}
+
 .navbar .nav-item .nav-link {
   font-family: "BwNistaInt-xBd";
   text-transform: uppercase;
