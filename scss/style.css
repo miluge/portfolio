@@ -535,7 +535,7 @@ textarea.form-control {
 
 #l6 {
   bottom: -20px;
-  left: 10%;
+  right: 30%;
 }
 
 #l7 {
@@ -556,7 +556,8 @@ textarea.form-control {
 .layer-bg {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 20%;
+  overflow: hidden;
 }
 
 /* skills */
@@ -954,5 +955,641 @@ blockquote {
 
 .filter-controls li.active {
   font-weight: bold;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+  -ms-grid-rows: (1fr)[10];
+      grid-template-rows: repeat(10, 1fr);
+  height: 40vh;
+  margin: 20vh auto 0 auto;
+  place-items: center;
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+  width: 40vh;
+}
+
+.grid-portfolio {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+  -ms-grid-rows: (1fr)[10];
+      grid-template-rows: repeat(10, 1fr);
+  height: 30vh;
+  margin: 20vh auto 0 auto;
+  place-items: center;
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+  width: 30vh;
+}
+
+.dot {
+  -webkit-animation: rotate 3s linear 0s infinite normal;
+          animation: rotate 3s linear 0s infinite normal;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.dot:nth-child(1)::before {
+  -webkit-animation: pulse 1s linear 0.1s infinite alternate both;
+          animation: pulse 1s linear 0.1s infinite alternate both;
+}
+
+.dot:nth-child(2)::before {
+  -webkit-animation: pulse 1s linear 0.2s infinite alternate both;
+          animation: pulse 1s linear 0.2s infinite alternate both;
+}
+
+.dot:nth-child(3)::before {
+  -webkit-animation: pulse 1s linear 0.3s infinite alternate both;
+          animation: pulse 1s linear 0.3s infinite alternate both;
+}
+
+.dot:nth-child(4)::before {
+  -webkit-animation: pulse 1s linear 0.4s infinite alternate both;
+          animation: pulse 1s linear 0.4s infinite alternate both;
+}
+
+.dot:nth-child(5)::before {
+  -webkit-animation: pulse 1s linear 0.5s infinite alternate both;
+          animation: pulse 1s linear 0.5s infinite alternate both;
+}
+
+.dot:nth-child(6)::before {
+  -webkit-animation: pulse 1s linear 0.6s infinite alternate both;
+          animation: pulse 1s linear 0.6s infinite alternate both;
+}
+
+.dot:nth-child(7)::before {
+  -webkit-animation: pulse 1s linear 0.7s infinite alternate both;
+          animation: pulse 1s linear 0.7s infinite alternate both;
+}
+
+.dot:nth-child(8)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(9)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(10)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(11)::before {
+  -webkit-animation: pulse 1s linear 0.2s infinite alternate both;
+          animation: pulse 1s linear 0.2s infinite alternate both;
+}
+
+.dot:nth-child(12)::before {
+  -webkit-animation: pulse 1s linear 0.3s infinite alternate both;
+          animation: pulse 1s linear 0.3s infinite alternate both;
+}
+
+.dot:nth-child(13)::before {
+  -webkit-animation: pulse 1s linear 0.4s infinite alternate both;
+          animation: pulse 1s linear 0.4s infinite alternate both;
+}
+
+.dot:nth-child(14)::before {
+  -webkit-animation: pulse 1s linear 0.5s infinite alternate both;
+          animation: pulse 1s linear 0.5s infinite alternate both;
+}
+
+.dot:nth-child(15)::before {
+  -webkit-animation: pulse 1s linear 0.6s infinite alternate both;
+          animation: pulse 1s linear 0.6s infinite alternate both;
+}
+
+.dot:nth-child(16)::before {
+  -webkit-animation: pulse 1s linear 0.7s infinite alternate both;
+          animation: pulse 1s linear 0.7s infinite alternate both;
+}
+
+.dot:nth-child(17)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(18)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(19)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(20)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(21)::before {
+  -webkit-animation: pulse 1s linear 0.3s infinite alternate both;
+          animation: pulse 1s linear 0.3s infinite alternate both;
+}
+
+.dot:nth-child(22)::before {
+  -webkit-animation: pulse 1s linear 0.4s infinite alternate both;
+          animation: pulse 1s linear 0.4s infinite alternate both;
+}
+
+.dot:nth-child(23)::before {
+  -webkit-animation: pulse 1s linear 0.5s infinite alternate both;
+          animation: pulse 1s linear 0.5s infinite alternate both;
+}
+
+.dot:nth-child(24)::before {
+  -webkit-animation: pulse 1s linear 0.6s infinite alternate both;
+          animation: pulse 1s linear 0.6s infinite alternate both;
+}
+
+.dot:nth-child(25)::before {
+  -webkit-animation: pulse 1s linear 0.7s infinite alternate both;
+          animation: pulse 1s linear 0.7s infinite alternate both;
+}
+
+.dot:nth-child(26)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(27)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(28)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(29)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(30)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(31)::before {
+  -webkit-animation: pulse 1s linear 0.4s infinite alternate both;
+          animation: pulse 1s linear 0.4s infinite alternate both;
+}
+
+.dot:nth-child(32)::before {
+  -webkit-animation: pulse 1s linear 0.5s infinite alternate both;
+          animation: pulse 1s linear 0.5s infinite alternate both;
+}
+
+.dot:nth-child(33)::before {
+  -webkit-animation: pulse 1s linear 0.6s infinite alternate both;
+          animation: pulse 1s linear 0.6s infinite alternate both;
+}
+
+.dot:nth-child(34)::before {
+  -webkit-animation: pulse 1s linear 0.7s infinite alternate both;
+          animation: pulse 1s linear 0.7s infinite alternate both;
+}
+
+.dot:nth-child(35)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(36)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(37)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(38)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(39)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(40)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(41)::before {
+  -webkit-animation: pulse 1s linear 0.5s infinite alternate both;
+          animation: pulse 1s linear 0.5s infinite alternate both;
+}
+
+.dot:nth-child(42)::before {
+  -webkit-animation: pulse 1s linear 0.6s infinite alternate both;
+          animation: pulse 1s linear 0.6s infinite alternate both;
+}
+
+.dot:nth-child(43)::before {
+  -webkit-animation: pulse 1s linear 0.7s infinite alternate both;
+          animation: pulse 1s linear 0.7s infinite alternate both;
+}
+
+.dot:nth-child(44)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(45)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(46)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(47)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(48)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(49)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(50)::before {
+  -webkit-animation: pulse 1s linear 1.4s infinite alternate both;
+          animation: pulse 1s linear 1.4s infinite alternate both;
+}
+
+.dot:nth-child(51)::before {
+  -webkit-animation: pulse 1s linear 0.6s infinite alternate both;
+          animation: pulse 1s linear 0.6s infinite alternate both;
+}
+
+.dot:nth-child(52)::before {
+  -webkit-animation: pulse 1s linear 0.7s infinite alternate both;
+          animation: pulse 1s linear 0.7s infinite alternate both;
+}
+
+.dot:nth-child(53)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(54)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(55)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(56)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(57)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(58)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(59)::before {
+  -webkit-animation: pulse 1s linear 1.4s infinite alternate both;
+          animation: pulse 1s linear 1.4s infinite alternate both;
+}
+
+.dot:nth-child(60)::before {
+  -webkit-animation: pulse 1s linear 1.5s infinite alternate both;
+          animation: pulse 1s linear 1.5s infinite alternate both;
+}
+
+.dot:nth-child(61)::before {
+  -webkit-animation: pulse 1s linear 0.7s infinite alternate both;
+          animation: pulse 1s linear 0.7s infinite alternate both;
+}
+
+.dot:nth-child(62)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(63)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(64)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(65)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(66)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(67)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(68)::before {
+  -webkit-animation: pulse 1s linear 1.4s infinite alternate both;
+          animation: pulse 1s linear 1.4s infinite alternate both;
+}
+
+.dot:nth-child(69)::before {
+  -webkit-animation: pulse 1s linear 1.5s infinite alternate both;
+          animation: pulse 1s linear 1.5s infinite alternate both;
+}
+
+.dot:nth-child(70)::before {
+  -webkit-animation: pulse 1s linear 1.6s infinite alternate both;
+          animation: pulse 1s linear 1.6s infinite alternate both;
+}
+
+.dot:nth-child(71)::before {
+  -webkit-animation: pulse 1s linear 0.8s infinite alternate both;
+          animation: pulse 1s linear 0.8s infinite alternate both;
+}
+
+.dot:nth-child(72)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(73)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(74)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(75)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(76)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(77)::before {
+  -webkit-animation: pulse 1s linear 1.4s infinite alternate both;
+          animation: pulse 1s linear 1.4s infinite alternate both;
+}
+
+.dot:nth-child(78)::before {
+  -webkit-animation: pulse 1s linear 1.5s infinite alternate both;
+          animation: pulse 1s linear 1.5s infinite alternate both;
+}
+
+.dot:nth-child(79)::before {
+  -webkit-animation: pulse 1s linear 1.6s infinite alternate both;
+          animation: pulse 1s linear 1.6s infinite alternate both;
+}
+
+.dot:nth-child(80)::before {
+  -webkit-animation: pulse 1s linear 1.7s infinite alternate both;
+          animation: pulse 1s linear 1.7s infinite alternate both;
+}
+
+.dot:nth-child(81)::before {
+  -webkit-animation: pulse 1s linear 0.9s infinite alternate both;
+          animation: pulse 1s linear 0.9s infinite alternate both;
+}
+
+.dot:nth-child(82)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(83)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(84)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(85)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(86)::before {
+  -webkit-animation: pulse 1s linear 1.4s infinite alternate both;
+          animation: pulse 1s linear 1.4s infinite alternate both;
+}
+
+.dot:nth-child(87)::before {
+  -webkit-animation: pulse 1s linear 1.5s infinite alternate both;
+          animation: pulse 1s linear 1.5s infinite alternate both;
+}
+
+.dot:nth-child(88)::before {
+  -webkit-animation: pulse 1s linear 1.6s infinite alternate both;
+          animation: pulse 1s linear 1.6s infinite alternate both;
+}
+
+.dot:nth-child(89)::before {
+  -webkit-animation: pulse 1s linear 1.7s infinite alternate both;
+          animation: pulse 1s linear 1.7s infinite alternate both;
+}
+
+.dot:nth-child(90)::before {
+  -webkit-animation: pulse 1s linear 1.8s infinite alternate both;
+          animation: pulse 1s linear 1.8s infinite alternate both;
+}
+
+.dot:nth-child(91)::before {
+  -webkit-animation: pulse 1s linear 1s infinite alternate both;
+          animation: pulse 1s linear 1s infinite alternate both;
+}
+
+.dot:nth-child(92)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(93)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(94)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(95)::before {
+  -webkit-animation: pulse 1s linear 1.4s infinite alternate both;
+          animation: pulse 1s linear 1.4s infinite alternate both;
+}
+
+.dot:nth-child(96)::before {
+  -webkit-animation: pulse 1s linear 1.5s infinite alternate both;
+          animation: pulse 1s linear 1.5s infinite alternate both;
+}
+
+.dot:nth-child(97)::before {
+  -webkit-animation: pulse 1s linear 1.6s infinite alternate both;
+          animation: pulse 1s linear 1.6s infinite alternate both;
+}
+
+.dot:nth-child(98)::before {
+  -webkit-animation: pulse 1s linear 1.7s infinite alternate both;
+          animation: pulse 1s linear 1.7s infinite alternate both;
+}
+
+.dot:nth-child(99)::before {
+  -webkit-animation: pulse 1s linear 1.8s infinite alternate both;
+          animation: pulse 1s linear 1.8s infinite alternate both;
+}
+
+.dot:nth-child(100)::before {
+  -webkit-animation: pulse 1s linear 1.9s infinite alternate both;
+          animation: pulse 1s linear 1.9s infinite alternate both;
+}
+
+.dot:nth-child(101)::before {
+  -webkit-animation: pulse 1s linear 1.1s infinite alternate both;
+          animation: pulse 1s linear 1.1s infinite alternate both;
+}
+
+.dot:nth-child(102)::before {
+  -webkit-animation: pulse 1s linear 1.2s infinite alternate both;
+          animation: pulse 1s linear 1.2s infinite alternate both;
+}
+
+.dot:nth-child(103)::before {
+  -webkit-animation: pulse 1s linear 1.3s infinite alternate both;
+          animation: pulse 1s linear 1.3s infinite alternate both;
+}
+
+.dot:nth-child(104)::before {
+  -webkit-animation: pulse 1s linear 1.4s infinite alternate both;
+          animation: pulse 1s linear 1.4s infinite alternate both;
+}
+
+.dot:nth-child(105)::before {
+  -webkit-animation: pulse 1s linear 1.5s infinite alternate both;
+          animation: pulse 1s linear 1.5s infinite alternate both;
+}
+
+.dot:nth-child(106)::before {
+  -webkit-animation: pulse 1s linear 1.6s infinite alternate both;
+          animation: pulse 1s linear 1.6s infinite alternate both;
+}
+
+.dot:nth-child(107)::before {
+  -webkit-animation: pulse 1s linear 1.7s infinite alternate both;
+          animation: pulse 1s linear 1.7s infinite alternate both;
+}
+
+.dot:nth-child(108)::before {
+  -webkit-animation: pulse 1s linear 1.8s infinite alternate both;
+          animation: pulse 1s linear 1.8s infinite alternate both;
+}
+
+.dot:nth-child(109)::before {
+  -webkit-animation: pulse 1s linear 1.9s infinite alternate both;
+          animation: pulse 1s linear 1.9s infinite alternate both;
+}
+
+.dot:nth-child(110)::before {
+  -webkit-animation: pulse 1s linear 2s infinite alternate both;
+          animation: pulse 1s linear 2s infinite alternate both;
+}
+
+.dot::before {
+  background: #8c1b68;
+  border-radius: 80%;
+  -webkit-box-shadow: 1em 1em 0 #f17853, -1em -1em 0 #f9f871;
+          box-shadow: 1em 1em 0 #f17853, -1em -1em 0 #f9f871;
+  content: "";
+  display: block;
+  height: 50%;
+  left: 65%;
+  position: absolute;
+  top: 25%;
+  width: 50%;
+  z-index: -2;
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale(0.15);
+            transform: scale(0.15);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale(0.15);
+            transform: scale(0.15);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=style.css.map */

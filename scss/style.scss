@@ -30,3 +30,74 @@ VERSION:	Versoin Number
 @import 'templates/about';
 
 @import 'templates/portfolio';
+
+// DOTS
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    height: 40vh;
+    margin: 20vh auto 0 auto;
+    place-items: center;
+    transform: rotate(75deg);
+    width: 40vh;
+  }
+
+  .grid-portfolio {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    height: 30vh;
+    margin: 20vh auto 0 auto;
+    place-items: center;
+    transform: rotate(75deg);
+    width: 30vh;
+  }
+  
+  .dot {
+    animation: rotate 3s linear 0s infinite normal;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    
+    @for $i from 0 through 10 {
+      @for $j from 1 through 10 {
+        &:nth-child(#{$i * 10 + $j})::before {
+          animation: pulse 1s linear #{($i + $j) / 10}s infinite alternate both;
+        }
+      }
+    }
+    
+    &::before {
+      background: #8c1b68;
+      border-radius: 80%;
+      box-shadow: 1em 1em 0 #f17853, -1em -1em 0 #f9f871;
+      content: "";
+      display: block;
+      height: 50%;
+      left: 65%;
+      position: absolute;
+      top: 25%;
+      width: 50%;
+      z-index: -2;
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.15);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
