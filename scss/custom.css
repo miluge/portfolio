@@ -19,4 +19,10 @@ ul.d-flex {
 .spacebot-fifteen {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 400px) {
+  #l7 {
+    display: none;
+  }
+}
 /*# sourceMappingURL=custom.css.map */

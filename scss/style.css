@@ -493,6 +493,7 @@ textarea.form-control {
 .hero-area {
   padding: 300px 0 200px;
   position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 767px) {
