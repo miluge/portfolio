@@ -20,12 +20,21 @@ ul.d-flex {
     margin-bottom: 1rem;
 }
 
-body {
-    overflow-x: hidden;
-}
 
   @media(max-width:400px){
     #l7 {
         display: none;
+    }
+
+    .bg-shape-5 {
+        display: none;
+    }
+
+    .hero-area {
+        overflow: hidden;
+    }
+
+    .navigation {
+        max-width: 400px;
     }
   }
