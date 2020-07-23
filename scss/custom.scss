@@ -19,3 +19,17 @@ ul.d-flex {
 .spacebot-fifteen {
     margin-bottom: 1rem;
 }
+
+// Slick slider
+
+.slick-prev:before {
+    content: "<";
+    color: red;
+    font-size: 30px;
+  }
+  
+  .slick-next:before {
+    content: ">";
+    color: red;
+    font-size: 30px;
+  }

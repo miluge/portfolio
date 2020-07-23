@@ -101,8 +101,9 @@
     $('.client-logo-slider').slick({
         infinite: true,
         slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         autoplay: true,
+        speed: 2000,
         dots: false,
         arrows: false,
         responsive: [{
@@ -135,6 +136,7 @@
             }
         ]
     });
+    
 
     // Shuffle js filter and masonry
     var Shuffle = window.Shuffle;
