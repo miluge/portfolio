@@ -89,6 +89,11 @@ ul.d-flex {
   color: black;
 }
 
+.warning {
+  font-weight: 700;
+  color: #b32424;
+}
+
 @media (max-width: 400px) {
   #l7 {
     display: none;
