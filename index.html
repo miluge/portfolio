@@ -40,16 +40,22 @@
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="#education">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#stack">Stack</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Resume</a>
@@ -60,7 +66,7 @@
 </header>
 
 <!-- hero area -->
-<section class="hero-area bg-primary" id="parallax">
+<section id="home" class="hero-area bg-primary" id="parallax">
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
@@ -194,24 +200,25 @@
 
 <!-- about -->
 <section class="section">
-  <div class="container">
+  <div class="container anchor">
+    <a id="about">&nbsp;</a>
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
         <p class="font-secondary paragraph-lg text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
           in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <a href="about.html" class="btn btn-transparent">know more</a>
+        <!-- <a href="about.html" class="btn btn-transparent">know more</a> -->
       </div>
     </div>
   </div>
 </section>
-
 <!-- Stack -->
-<section class="section">
+<section  class="section anchor">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-12 text-center anchor">
+        <a id="stack">&nbsp;</a>
         <h2 class="section-title">Stack</h2>
       </div>
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
@@ -267,7 +274,7 @@
             src="images/clients-logo/laravel-framework-min.png" alt="Laravel" height="140px" width="140px"></span>
         </div>
         <div class="card-footer bg-white">
-          <h4 class="card-title">Laravel</h4>
+          <h4 class="card-title">Bootstrap</h4>
         </div>
       </div>
     </div>
@@ -297,9 +304,11 @@
 </section>
 <!-- Tools I use -->
 <section class="section">
+  
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center anchor">
+        <a id="tools">&nbsp;</a>
         <h2 class="section-title">Tools I use</h2>
       </div>
     </div>
@@ -327,63 +336,13 @@
     </div>
   </div>
 </section>
-<!-- skills
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Skills</h2>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
-            <div class="wave" data-progress="60%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Front-end Development (60%)</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
-            <div class="wave" data-progress="60%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Web Design (60%)</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
-            <div class="wave" data-progress="80%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">SEO (80%)</h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
-        <div class="card shadow text-center">
-          <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
-            <div class="wave" data-progress="70%"></div>
-          </div>
-          <div class="card-footer bg-white">
-            <h4 class="card-title">Back-end Development (70%)</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-/skills -->
 <!-- portfolio -->
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Portfolio</h2>
+      <div class="col-12 text-center anchor">
+        <a id="projects">&nbsp;</a>
+        <h2 class="section-title">Projects</h2>
       </div>
     </div>
     <div class="row shuffle-wrapper">
@@ -392,7 +351,7 @@
           <img src="images/portfolio/picnic_bistro.png" alt="Picnic Bistro pinicbistro.ro" class="img-fluid rounded w-100 lazyload">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+              <a class="btn btn-light btn-modal btn-sm" href="#open-picnic">view project</a>
             </div>
           </div>
         </div>
@@ -402,22 +361,22 @@
           <img src="images/portfolio/ddjewelry.png" alt="DDJewelry | DDJewelry.ro" class="img-fluid rounded w-100 lazyload">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+              <a class="btn btn-light btn-sm" href="#open-dd">view project</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/file-explorer.PNG" alt="File Explorer project" class="img-fluid rounded w-100 lazyload">
+          <img src="images/portfolio/file-explorer.PNG" alt="Natural Coach" class="img-fluid rounded w-100 lazyload">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+              <a class="btn btn-light btn-sm" href="#open-natural">view project</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      <!-- <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100 lazyload">
           <div class="hover-overlay">
@@ -446,8 +405,45 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
+  </div>
+  <div id="open-picnic" class="modal-window">
+    <div>
+      <a href="#projects" title="Close" class="modal-close">Close</a>
+      <h1>Picnic Bistro</h1>
+      <div>A CSS-only modal based on the :target pseudo-class. Hope you find it helpful.</div>
+      <br>
+      <div>Check it out at :</div>
+      <br>
+      <a href="https://aminoeditor.com" target="_blank">👉 Picnicbistro.ro</div>
+      </div>
+  </div>
+  <div id="open-dd" class="modal-window">
+    <div>
+      <a href="#projects" title="Close" class="modal-close">Close</a>
+      <h1>DDJewelry</h1>
+      <div><p>Contemporary jewelry designer website made with :</p><br>
+      <p>Wordpress</p><br>
+      <p>Currently under maintenance</p>
+      </div>
+      <br>
+      <div>Check it out at :</div>
+      <br>
+      <a href="https://ddjewelry.ro" target="_blank">👉 DD Jewelry</div>
+      </div>
+  </div>
+  <div id="open-natural" class="modal-window">
+    <div>
+      <a href="#projects" title="Close" class="modal-close">Close</a>
+      <h1>Natural Coach</h1>
+      <div><p>A CRUD system made with :</p><br>
+        <p>PHP, MySQL & Bulma.io</p><br>
+      </div>
+      <div>Check it out at :</div>
+      <br>
+      <a href="https://www.guillaumeblondel.dev/projects/natural-coach-final/" target="_blank">👉 Natural Coach</div>
+      </div>
   </div>
 </section>
 <!-- /portfolio -->
@@ -456,7 +452,8 @@
 <section class="section position-relative">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-12 text-center anchor">
+        <a id="education">&nbsp;</a>
         <h2 class="section-title">Education</h2>
       </div>
       <div class="col-lg-6 col-md-6 mb-80">
@@ -518,7 +515,8 @@
 <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center">
+      <div class="col-12 text-center anchor">
+        <a id="contact">&nbsp;</a>
         <h2 class="section-title">Contact Info</h2>
       </div>
       <div class="col-lg-8 mx-auto">

@@ -37,11 +37,11 @@ VERSION:	Versoin Number
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
-    height: 40vh;
+    height: 60vh;
     margin: 20vh auto 0 auto;
     place-items: center;
     transform: rotate(75deg);
-    width: 40vh;
+    width: 60vh;
   }
 
   .grid-portfolio {
